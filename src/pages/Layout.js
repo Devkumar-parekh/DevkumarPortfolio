@@ -7,7 +7,7 @@ const Layout = () => {
   return (
     <>
       <Provider store={store}>
-        <div className="d-flex flex-column vh-100 bg-dark">
+        <div className="d-flex flex-column bg-dark" style={{minHeight:'100vh'}}>
           <nav className="navbar navbar navbar-dark bg-dark navbar-expand-lg ">
             <div className="container">
               <a className="navbar-brand" href="#">

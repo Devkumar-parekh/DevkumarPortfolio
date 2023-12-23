@@ -15,6 +15,9 @@ const QRGenerator = () => {
   return (
     // <div className="d-flex align-items-center justify-content-center vh-100 ">
     <div className="area">
+
+      <div className="container ">
+    <div style={{position:'relative'}}>
       <ul class="circles">
         <li></li>
         <li></li>
@@ -28,7 +31,6 @@ const QRGenerator = () => {
         <li></li>
       </ul>
 
-      <div className="container ">
         <div className="row justify-content-center">
           <div className="col-md-6">
             <div className="card my-3 text-dark  mt-5">
@@ -123,6 +125,7 @@ const QRGenerator = () => {
             </div>
           </div>
         </div>
+    </div>
       </div>
     </div>
     // </div>

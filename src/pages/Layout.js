@@ -11,7 +11,7 @@ const Layout = () => {
           <nav className="navbar navbar navbar-dark bg-dark navbar-expand-lg ">
             <div className="container">
               <a className="navbar-brand" href="#">
-                Navbar
+                Portfolio
               </a>
               <button
                 className="navbar-toggler"
@@ -67,13 +67,13 @@ const Layout = () => {
           <div className="mt-auto bg-dark text-warning fw-bold">
             <div className="container">
               <div className="row justify-content-center my-3">
-                <div className="col-md-2">
-                  <a href="mailto:test@test.test" className="link-warning">
-                    test@test.test
+                <div className="col-md-3">
+                  <a href="mailto:parekh2devkumar@gmail.com" className="link-warning" target="_blank">
+                    parekh2devkumar@gmail.com
                   </a>{" "}
                   <br />
-                  <a href="tel:+919876543210" className="link-warning">
-                    +91-9876543210
+                  <a href="tel:+918469025446" className="link-warning" target="_blank">
+                    +91-8469025446
                   </a>
                 </div>
                 <div className="col-md-2">

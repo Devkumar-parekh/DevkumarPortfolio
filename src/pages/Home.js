@@ -52,7 +52,7 @@ const Home = () => {
                       src={
                         UserProfile?.ProfileImg
                           ? "data:image/png;base64," + UserProfile?.ProfileImg
-                          : "./images/profilePlaceholder-trans.png"
+                          : "./images/profilePlaceholder-trans.jpg"
                       }
                       alt=""
                     />
@@ -79,7 +79,7 @@ const Home = () => {
               <div className="col-md-4">
                 <img
                   className="img-fluid text-center rounded"
-                  src="./images/profilePlaceholder-trans.png"
+                  src="./images/profilePlaceholder-trans.jpg"
                   alt=""
                 />
               </div>

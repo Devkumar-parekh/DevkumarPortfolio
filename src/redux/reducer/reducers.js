@@ -2,11 +2,11 @@ import { typeArray } from "../typeArray";
 const initialState = {
   loginData: {},
   UserProfile: {
-    FName: "FName",
-    LName: "LName",
-    Mobile: "9876543210",
-    LinkedIn: "linkedin.com",
-    Email: "test1@test.test",
+    FName: "Devkumar",
+    LName: "Parekh",
+    Mobile: "8469025446",
+    LinkedIn: "https://www.linkedin.com/in/devkumar-parekh-451521191/",
+    Email: "parekh2devkumar@gmail.com",
     ProfileImg: "",
     Designation: "Developer",
     SkillDomain: "MERNStack",

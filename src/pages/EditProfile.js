@@ -145,7 +145,7 @@ const EditProfile = () => {
                           ? URL.createObjectURL(selectedImage)
                           : UserProfile?.ProfileImg
                           ? "data:image/png;base64," + UserProfile?.ProfileImg
-                          : `./images/profilePlaceholder-trans.png`
+                          : `./images/profilePlaceholder-trans.jpg`
                       }
                       width={250}
                       height={250}

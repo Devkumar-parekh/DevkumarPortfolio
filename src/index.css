@@ -1,0 +1,280 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.shrink img {
+  transition: 1s ease;
+}
+
+.shrink img:hover {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: 1s ease;
+}
+.borderImg img {
+  transition: 0.5s ease;
+}
+
+.borderImg img:hover {
+  box-shadow: 0 0 0 10px #000000;
+  transition: 0.5s ease;
+}
+.rotateImg img {
+  transition: 1s ease;
+}
+
+.rotateImg img:hover {
+  -webkit-transform: rotateZ(10deg);
+  -ms-transform: rotateZ(10deg);
+  transform: rotateZ(10deg);
+  transition: 1s ease;
+}
+.defRotateImg {
+  cursor: pointer;
+  transition: 1s ease;
+  transform: rotateZ(-10deg);
+}
+.defRotateImgInv {
+  cursor: pointer;
+  transition: 1s ease;
+  transform: rotateZ(10deg);
+}
+
+.defRotateImg img:hover,
+.defRotateImgInv img:hover {
+  -webkit-transform: rotateZ(20deg);
+  -ms-transform: rotateZ(20deg);
+  transform: rotateZ(20deg);
+  transition: 1s ease;
+}
+.bg-yellow-pink {
+  background: linear-gradient(320.82deg, #fa709a 0%, #fec140 100%);
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.21);
+}
+.btn-yellow-pink {
+  background: linear-gradient(70deg, hotpink, orange);
+}
+.btn-pink-blue {
+  background: linear-gradient(80deg, #ff7979, dodgerblue);
+}
+
+.shape-container {
+  position: relative;
+  /* width: 1245px; */
+  /* height: 780px; */
+  background: #fa709a;
+  /* background-image: url("https://images.unsplash.com/photo-1557844352-761f2565b576?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-pink {
+  background: #fa709a;
+}
+.bg-blue {
+  background: #70acfa;
+}
+.bg-purple {
+  background: #ae70fa;
+}
+.shape-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #70acfa;
+  /* background-image: url("https://images.unsplash.com/photo-1557838429-126184c0345c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-clip-path: polygon(0 0, 80% 0, 35% 50%, 0 12%);
+  clip-path: polygon(0 0, 80% 0, 35% 50%, 0 12%);
+}
+
+.shape-left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: #ae70fa;
+  /* background-image: url("https://images.unsplash.com/photo-1557878499-95663e82c9d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-clip-path: polygon(0 12%, 0 86%, 35% 50%);
+  clip-path: polygon(0 12%, 0 86%, 35% 50%);
+}
+
+.curve-shape-container {
+  position: relative;
+  /* width: 1245px; */
+  /* height: 780px; */
+  background: #000000;
+  /* background-image: url("https://images.unsplash.com/photo-1557844352-761f2565b576?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.curve-shape-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #474e57;
+  /* background-image: url("https://images.unsplash.com/photo-1557838429-126184c0345c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-clip-path: ellipse(81% 40% at 73% 0%);
+  clip-path: ellipse(81% 40% at 73% 0%);
+}
+
+.curve-shape-container2 {
+  position: relative;
+  /* width: 1245px; */
+  /* height: 780px; */
+  background: #000000;
+  /* background-image: url("https://images.unsplash.com/photo-1557844352-761f2565b576?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.curve-shape-top2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #474e57;
+  /* background-image: url("https://images.unsplash.com/photo-1557838429-126184c0345c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-clip-path: polygon(0 0, 86% 0, 53% 74%, 86% 0, 100% 22%, 53% 100%);
+  clip-path: polygon(0 0, 86% 0, 53% 74%, 86% 0, 100% 22%, 53% 100%);
+}
+
+.area {
+  background: linear-gradient(45deg, #dba1ff, transparent);
+  background: -webkit-linear-gradient(to left, #342a2a, #343653);
+  width: 100%;
+  height: 100vh;
+}
+
+.circles {
+  position: absolute;
+  top: 55px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.circles li {
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  animation: animate 25s linear infinite;
+  bottom: -150px;
+}
+
+.circles li:nth-child(1) {
+  left: 25%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+}
+
+.circles li:nth-child(2) {
+  left: 10%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 2s;
+  animation-duration: 12s;
+}
+
+.circles li:nth-child(3) {
+  left: 70%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 4s;
+}
+
+.circles li:nth-child(4) {
+  left: 40%;
+  width: 60px;
+  height: 60px;
+  animation-delay: 0s;
+  animation-duration: 18s;
+}
+
+.circles li:nth-child(5) {
+  left: 65%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 0s;
+}
+
+.circles li:nth-child(6) {
+  left: 75%;
+  width: 110px;
+  height: 110px;
+  animation-delay: 3s;
+}
+
+.circles li:nth-child(7) {
+  left: 35%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 7s;
+}
+
+.circles li:nth-child(8) {
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  animation-delay: 15s;
+  animation-duration: 45s;
+}
+
+.circles li:nth-child(9) {
+  left: 20%;
+  width: 15px;
+  height: 15px;
+  animation-delay: 2s;
+  animation-duration: 35s;
+}
+
+.circles li:nth-child(10) {
+  left: 85%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 0s;
+  animation-duration: 11s;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+    border-radius: 0;
+  }
+
+  100% {
+    transform: translateY(-1000px) rotate(720deg);
+    opacity: 0.2;
+    border-radius: 50%;
+  }
+}

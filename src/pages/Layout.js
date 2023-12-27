@@ -7,7 +7,10 @@ const Layout = () => {
   return (
     <>
       <Provider store={store}>
-        <div className="d-flex flex-column bg-dark" style={{minHeight:'100vh'}}>
+        <div
+          className="d-flex flex-column bg-dark"
+          style={{ minHeight: "100vh" }}
+        >
           <nav className="navbar navbar navbar-dark bg-dark navbar-expand-lg ">
             <div className="container">
               <a className="navbar-brand" href="#">
@@ -46,6 +49,12 @@ const Layout = () => {
                     </Link>
                   </li> */}
                   <li className="nav-item">
+                    <Link className="nav-link" to="/skills">
+                      Skills
+                    </Link>
+                  </li>
+                  {/*  */}
+                  <li className="nav-item">
                     <Link className="nav-link" to="/projects">
                       Projects
                     </Link>
@@ -55,7 +64,6 @@ const Layout = () => {
                       Edit Profile
                     </Link>
                   </li>
-
                   {/*  */}
                 </ul>
               </div>
@@ -68,11 +76,19 @@ const Layout = () => {
             <div className="container">
               <div className="row justify-content-center my-3">
                 <div className="col-md-3">
-                  <a href="mailto:parekh2devkumar@gmail.com" className="link-warning" target="_blank">
+                  <a
+                    href="mailto:parekh2devkumar@gmail.com"
+                    className="link-warning"
+                    target="_blank"
+                  >
                     parekh2devkumar@gmail.com
                   </a>{" "}
                   <br />
-                  <a href="tel:+918469025446" className="link-warning" target="_blank">
+                  <a
+                    href="tel:+918469025446"
+                    className="link-warning"
+                    target="_blank"
+                  >
                     +91-8469025446
                   </a>
                 </div>

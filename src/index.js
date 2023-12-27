@@ -17,6 +17,7 @@ import Gallery from "./pages/projects/Gallery";
 import QuizComp from "./pages/projects/Quiz";
 import "./index.css";
 import QRGenerator from "./pages/projects/QRGenerator";
+import SkillSet from "./pages/SkillSet";
 export default function App() {
   return (
     <BrowserRouter>
@@ -26,6 +27,8 @@ export default function App() {
           <Route path="blogs" element={<Blogs />} />
           <Route path="contact" element={<Contact />} />
           <Route path="editProfile" element={<EditProfile />} />
+          <Route path="skills" element={<SkillSet />} />
+          {/* SkillSet */}
           <Route path="projects" element={<Projects />} />
           <Route path="projectlist">
             <Route path="chess" element={<Chessboard />} />

@@ -23,9 +23,9 @@ const Gallery = () => {
   }, []);
   return (
     // <div className="d-flex align-items-center justify-content-center vh-100 ">
-    <div className="shape-container">
-      <div className="shape-top"></div>
-      <div className="shape-left"></div>
+    <div className="shape-container" style={{ background: "#fdbeac" }}>
+      <div className="shape-top" style={{ background: "#fef3ed" }}></div>
+      <div className="shape-left" style={{ background: "#e68fb2" }}></div>
       <div
         className="container "
         style={
@@ -64,7 +64,10 @@ const Gallery = () => {
         </div>
         <div className="row justify-content-center">
           <div className="col-md-9 ">
-            <div className="card my-3 text-warning bg-dark ">
+            <div
+              className="card my-3   "
+              style={{ background: "#55423c", color: "#ffc0ae" }}
+            >
               <div className="card-body p-5">
                 <h2 className="text-center mb-2">Gallery</h2>
               </div>

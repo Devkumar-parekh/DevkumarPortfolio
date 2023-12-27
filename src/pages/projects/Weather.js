@@ -38,7 +38,6 @@ const WeatherComp = () => {
             <div className="card my-3 fw-bold text-primary bg-light ">
               <div className="card-body p-5">
                 <h2 className="text-center mb-2 text-dark">Check Weather</h2>
-              </div>
               <div className="row justify-content-center">
                 <div className="col-md-6">
                   <div className="mb-3">
@@ -84,6 +83,7 @@ const WeatherComp = () => {
                     </div>
                   </div>
                 </div>
+              </div>
               </div>
             </div>
           </div>

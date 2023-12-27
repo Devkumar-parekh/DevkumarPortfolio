@@ -259,9 +259,9 @@ const QuizComp = () => {
     <div className="curve-shape-container2" style={{ height: "100vh" }}>
       <div className="curve-shape-top2"></div>
       <div className="container" style={{ position: "relative" }}>
-        <div className="row justify-content-center">
+        <div className="row justify-content-center ">
           <div className="col-md-6">
-            <div className="card my-3 text-warning bg-dark ">
+            <div className="card my-3 text-warning bg-dark mt-5">
               <div className="card-body p-5">
                 <h2 className="text-center mb-2">Take a Quiz</h2>
               </div>

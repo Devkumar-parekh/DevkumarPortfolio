@@ -79,7 +79,7 @@ const CrudOps = () => {
   return (
     // <div className="d-flex align-items-center justify-content-center vh-100 ">
     <div className="container">
-      <div className="row justify-content-center">
+      <div className="row justify-content-center mt-5">
         <div className="col-md-6">
           <div className="card my-3 text-warning bg-dark ">
             <div className="card-body p-5 bg-yellow-pink">

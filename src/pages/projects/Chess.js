@@ -1,7 +1,7 @@
 // import logo from "./logo.svg";
 // import "./App.css";
 import { useEffect, useState } from "react";
-
+import "./css/chess.css";
 function Chessboard() {
   const blockArr = [];
   const [highlightList, setHighlightList] = useState([]);
@@ -133,16 +133,16 @@ function Chessboard() {
         }
       `}</style>
 
-      <div className="shape-container">
-        <div className="shape-top"></div>
-        <div className="shape-left"></div>
+      <div className="shape-container" style={{ background: "#242947" }}>
+        <div className="shape-top" style={{ background: "#b8c1ec" }}></div>
+        <div className="shape-left" style={{ background: "#eebbc2" }}></div>
         <div className="position-relative">
           <button
             onClick={() => {
               setHighlightList([]);
             }}
             style={{ marginBottom: "30px" }}
-            className="btn bg-pink btn-primary mt-3"
+            className="btn bg-lightPink btn-primary mt-3"
           >
             Reset
           </button>

@@ -36,12 +36,28 @@ const projectList = [
     img: "./images/projects/qr.png",
     label: "Generate QR",
   },
+  {
+    url: "/projectlist/tic-tac-toe",
+    img: "./images/projects/tictactoe.gif",
+    label: "Tic Tac Toe",
+  },
+
+  {
+    url: "/projectlist/to-do",
+    img: "./images/projects/todos.gif",
+    label: "To Do's list",
+  },
+  //
+  ,
 ];
 const Projects = () => {
   return (
     <>
       <div className="container">
         <h1>Projects</h1>
+        {/* <br /> mindi coming soon...
+        <br /> todo's coming soon... */}
+        <br />
         <div className="row">
           {projectList?.map((item, index) => {
             return (
@@ -69,7 +85,6 @@ const Projects = () => {
               </div>
             );
           })}
-
           {/* generate-qr */}
           {/* check-weather */}
         </div>

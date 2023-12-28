@@ -30,4 +30,11 @@ export const setProductList = (payload) => {
     payload,
   };
 };
+
+export const setTaskList = (payload) => {
+  return {
+    type: typeArray.setTaskList,
+    payload,
+  };
+};
 //

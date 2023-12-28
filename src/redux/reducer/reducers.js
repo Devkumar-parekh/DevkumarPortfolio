@@ -12,6 +12,7 @@ const initialState = {
     SkillDomain: "MERNStack",
   },
   ProductList: [],
+  TaskList: [],
 };
 export const authReducer = (state = initialState, action) => {
   switch (action.type) {
@@ -22,6 +23,8 @@ export const authReducer = (state = initialState, action) => {
       return { ...state, UserProfile: action.payload };
     case typeArray.setProductList:
       return { ...state, ProductList: action.payload };
+    case typeArray.setTaskList:
+      return { ...state, TaskList: action.payload };
     //
     default:
       return state;

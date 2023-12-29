@@ -263,7 +263,7 @@ const QuizComp = () => {
           <div className="col-md-6">
             <div className="card my-3 text-warning bg-dark mt-5">
               <div className="card-body p-5">
-                <h2 className="text-center mb-2">Take a Quiz</h2>
+                <h1 className="text-center mb-2">Take a Quiz</h1>
               </div>
               <div className="m-3 border rounded p-2">
                 {quizStatus + 1}|{ques?.length}|

@@ -20,6 +20,7 @@ import QRGenerator from "./pages/projects/QRGenerator";
 import SkillSet from "./pages/SkillSet";
 import TicTacToe from "./pages/projects/TicTacToe";
 import ToDos from "./pages/projects/ToDos";
+import CardGame from "./pages/projects/CardGame";
 export default function App() {
   return (
     <BrowserRouter>
@@ -42,7 +43,8 @@ export default function App() {
             <Route path="generate-qr" element={<QRGenerator />} />
             <Route path="tic-tac-toe" element={<TicTacToe />} />
             <Route path="to-do" element={<ToDos />} />
-            {/*  */}
+            <Route path="card-game" element={<CardGame />} />
+            {/* CardGame */}
           </Route>
           {/* Quiz */}
           <Route path="*" element={<NoPage />} />

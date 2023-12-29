@@ -47,6 +47,11 @@ const projectList = [
     img: "./images/projects/todos.gif",
     label: "To Do's list",
   },
+  {
+    url: "/projectlist/card-game",
+    img: "./images/projects/cardDist.gif",
+    label: "Card Distribution",
+  },
   //
   ,
 ];
@@ -58,7 +63,7 @@ const Projects = () => {
         {/* <br /> mindi coming soon...
         <br /> todo's coming soon... */}
         <br />
-        <div className="row">
+        <div className="row justify-content-center">
           {projectList?.map((item, index) => {
             return (
               <div className="col-md-4 p-3 text-center" key={index}>

@@ -69,7 +69,7 @@ const Gallery = () => {
               style={{ background: "#55423c", color: "#ffc0ae" }}
             >
               <div className="card-body p-5">
-                <h2 className="text-center mb-2">Gallery</h2>
+                <h1 className="text-center mb-2">Gallery</h1>
               </div>
 
               <div className="d-flex flex-wrap justify-content-center">

@@ -83,7 +83,7 @@ const CrudOps = () => {
         <div className="col-md-6">
           <div className="card my-3 text-warning bg-dark ">
             <div className="card-body p-5 bg-yellow-pink">
-              <h2 className="text-center mb-2 text-light">Add Product</h2>
+              <h1 className="text-center mb-2 text-light">Add Product</h1>
               <div>
                 <div className="form-floating mb-3">
                   <input

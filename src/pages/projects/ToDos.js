@@ -35,9 +35,9 @@ const ToDos = () => {
             >
               <div className="row">
                 <div className="col-md-6">
-                  <h2 className="text-center mb-2 text-light">
+                  <h1 className="text-center mb-2 text-light">
                     Add Tasks To Do
-                  </h2>
+                  </h1>
                   <div>
                     <div className=" mb-3">
                       <label className="text-light">Task</label>

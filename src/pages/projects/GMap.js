@@ -24,7 +24,7 @@ const GMap = () => {
               style={{ background: "#abd1c6", color: "#004743" }}
             >
               <div className="card-body p-5">
-                <h2 className="text-center mb-2">My City</h2>
+                <h1 className="text-center mb-2">My City</h1>
               </div>
               <div className="text-center">
                 <div class="ratio ratio-4x3">

@@ -39,7 +39,7 @@ const QRGenerator = () => {
             <div className="col-md-6">
               <div className="card my-3 text-dark  mt-5">
                 <div className="card-body p-5">
-                  <h2 className="text-center mb-2">QR Generator</h2>
+                  <h1 className="text-center mb-2">QR Generator</h1>
                   <div>
                     <div className="mb-3">
                       <label htmlFor="qrdetailUrl" className="form-label">

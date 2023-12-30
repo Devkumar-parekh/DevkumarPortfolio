@@ -8,7 +8,7 @@ const Home = () => {
   const UserProfile = authState?.UserProfile;
   const [title, setTitle] = useState("");
   var i = -1;
-  var txt = `Hello, I'm ${UserProfile?.FName} ${UserProfile?.LName}`;
+  var txt = ` ${UserProfile?.FName} ${UserProfile?.LName} - ${UserProfile?.Designation} ${UserProfile?.SkillDomain} `;
   var speed = 100;
   const typeWriter = async () => {
     setTitle("");
@@ -45,6 +45,7 @@ const Home = () => {
             >
               <div className="card-body text-center">
                 <h1 className="text-center">{title}</h1>
+
                 <div className="row justify-content-center">
                   <div className="col-md-12">
                     <img
@@ -62,8 +63,12 @@ const Home = () => {
                   {UserProfile?.Designation} <br />
                   {UserProfile?.SkillDomain} <br />
                   <Link to="/editProfile" className="btn btn-warning">
-                    Edit Profile
+                    Edit Profile As Guest User
                   </Link>
+                  <h2>
+                    Key Skills: ReactJS, Next.js, MongoDB, Node.js, Express
+                  </h2>
+                  <h2>Experienced in Building Scalable Web Applications</h2>
                 </div>
               </div>
             </div>

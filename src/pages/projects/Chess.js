@@ -137,6 +137,7 @@ function Chessboard() {
         <div className="shape-top" style={{ background: "#b8c1ec" }}></div>
         <div className="shape-left" style={{ background: "#eebbc2" }}></div>
         <div className="position-relative">
+          <h1 style={{ color: "#242947" }}>Queen's Moves</h1>
           <button
             onClick={() => {
               setHighlightList([]);

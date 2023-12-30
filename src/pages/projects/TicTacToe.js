@@ -63,6 +63,7 @@ const TicTacToe = () => {
         } */
         }
       `}</style>
+      <h1 style={{ color: "#eb7b7bbd", textAlign: "center" }}>Tic Tac Toe</h1>
       <div className="card">
         <div className="card-body">
           <div className="d-flex  justify-content-center">
@@ -81,7 +82,7 @@ const TicTacToe = () => {
                 className="block-btn  btn position-relative"
                 onClick={() => handleInput(1)}
               >
-                <div className="position-absolute top-50 start-50 translate-middle fs-3">
+                <div className="position-absolute top-50 start-50 translate-middle fs-2">
                   {gameState[1]}
                 </div>
               </div>
@@ -161,6 +162,17 @@ const TicTacToe = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="text-center">
+          <button
+            className="btn btn-dark"
+            onClick={() => {
+              setGameState(Array(9).fill(""));
+              setResult(false);
+            }}
+          >
+            Reset
+          </button>
         </div>
       </div>
     </div>

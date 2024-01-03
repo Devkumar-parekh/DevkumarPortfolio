@@ -52,7 +52,12 @@ const projectList = [
     img: "./images/projects/cardDist.gif",
     label: "Card Distribution",
   },
-  //
+  {
+    url: "/projectlist/lucky-spin-wheel",
+    img: "./images/projects/spinWheel.gif",
+    label: "Lucky Spin Wheel",
+  },
+  //spinWheel
   ,
 ];
 const Projects = () => {

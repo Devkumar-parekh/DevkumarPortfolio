@@ -21,6 +21,7 @@ import SkillSet from "./pages/SkillSet";
 import TicTacToe from "./pages/projects/TicTacToe";
 import ToDos from "./pages/projects/ToDos";
 import CardGame from "./pages/projects/CardGame";
+import LuckySpin from "./pages/projects/LuckySpin";
 export default function App() {
   return (
     <BrowserRouter>
@@ -44,7 +45,9 @@ export default function App() {
             <Route path="tic-tac-toe" element={<TicTacToe />} />
             <Route path="to-do" element={<ToDos />} />
             <Route path="card-game" element={<CardGame />} />
-            {/* CardGame */}
+            <Route path="lucky-spin-wheel" element={<LuckySpin />} />
+
+            {/* LuckySpin */}
           </Route>
           {/* Quiz */}
           <Route path="*" element={<NoPage />} />

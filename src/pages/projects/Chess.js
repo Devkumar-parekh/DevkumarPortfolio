@@ -2,6 +2,7 @@
 // import "./App.css";
 import { useEffect, useState } from "react";
 import "./css/chess.css";
+import { setMeta } from "../../01utils/functions";
 function Chessboard() {
   const blockArr = [];
   const [highlightList, setHighlightList] = useState([]);
@@ -52,6 +53,17 @@ function Chessboard() {
     blockArr.push(rowTemp);
   }
   useEffect(() => {
+    setMeta("https://devkumar-parekh.vercel.app/images/projects/chess.gif");
+    // const twitterImage = document.getElementById("twitter_image");
+    // const ogImage = document.getElementById("og_image");
+
+    // if (twitterImage && ogImage) {
+    //   console.log(59);
+    //   twitterImage.content =
+    //     "https://devkumar-parekh.vercel.app/images/projects/chess.gif";
+    //   ogImage.content =
+    //     "https://devkumar-parekh.vercel.app/images/projects/chess.gif";
+    // }
     setBlockState(blockArr);
     console.log(blockState, "blockState12");
   }, []);

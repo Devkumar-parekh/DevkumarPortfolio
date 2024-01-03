@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
+import { setMeta } from "../01utils/functions";
 
 const Home = () => {
   const dispatch = useDispatch();
@@ -24,6 +25,7 @@ const Home = () => {
     }, speed);
   };
   useEffect(() => {
+    setMeta("https://devkumar-parekh.vercel.app/images/ogImage.png");
     typeWriter();
   }, []);
   return (

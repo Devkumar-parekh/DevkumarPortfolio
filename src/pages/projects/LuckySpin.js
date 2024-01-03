@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import { setMeta } from "../../01utils/functions";
 const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 function LuckySpin() {
   const [luckyNum, setLuckyNum] = useState(0);
@@ -24,6 +25,9 @@ function LuckySpin() {
     }, 90);
     // luckyNum
   };
+  useEffect(() => {
+    setMeta("https://devkumar-parekh.vercel.app/images/projects/spinWheel.gif");
+  }, []);
   return (
     <div
       className="container text-center p-3"

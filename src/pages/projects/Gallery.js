@@ -5,13 +5,15 @@ import { setProductList } from "../../redux/actions/actions";
 import { CustomDataTable } from "./components/customDataTable";
 import axios from "axios";
 import "../../index.css";
+import { setMeta } from "../../01utils/functions";
 const Gallery = () => {
   const [imgList, setimgList] = useState([]);
+  const [pageNo, setPageNo] = useState(15);
   const [modalimg, setmodalimg] = useState("");
   const getWeatherDet = async () => {
     try {
       const res = await axios.get(
-        `https://picsum.photos/v2/list?page=1&limit=100`
+        `https://picsum.photos/v2/list?page=${pageNo}&limit=10`
       );
       setimgList(res.data);
     } catch (e) {
@@ -20,6 +22,7 @@ const Gallery = () => {
   };
   useEffect(() => {
     getWeatherDet();
+    setMeta("https://devkumar-parekh.vercel.app/images/projects/gallery.gif");
   }, []);
   return (
     // <div className="d-flex align-items-center justify-content-center vh-100 ">
@@ -100,6 +103,26 @@ const Gallery = () => {
                     </div>
                   );
                 })}
+              </div>
+              <div className="d-flex justify-content-between mb-5">
+                <button
+                  className="btn btn-sm btn-success mx-2"
+                  onClick={() => {
+                    if (pageNo > 1) setPageNo(pageNo - 1);
+                    getWeatherDet();
+                  }}
+                >
+                  Prev
+                </button>
+                <button
+                  className="btn btn-sm btn-success mx-2"
+                  onClick={() => {
+                    if (pageNo < 25) setPageNo(pageNo + 1);
+                    getWeatherDet();
+                  }}
+                >
+                  Next
+                </button>
               </div>
             </div>
           </div>

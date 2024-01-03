@@ -1,9 +1,13 @@
 import React, { useEffect, useState } from "react";
+import { setMeta } from "../../01utils/functions";
 
 const TicTacToe = () => {
   const [turn, setTurn] = useState("X");
   const [gameState, setGameState] = useState(Array(9).fill(""));
   const [result, setResult] = useState(false);
+  useEffect(() => {
+    setMeta("https://devkumar-parekh.vercel.app/images/projects/tictactoe.gif");
+  }, []);
   const handleInput = (i) => {
     setGameState((prev) => {
       let temp = prev;

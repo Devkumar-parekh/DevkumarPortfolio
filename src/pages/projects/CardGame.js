@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { setProductList } from "../../redux/actions/actions";
 import { CustomDataTable } from "./components/customDataTable";
 import axios from "axios";
+import { setMeta } from "../../01utils/functions";
 
 const CardGame = () => {
   const [cardDist, setCardDist] = useState([]);
@@ -58,6 +59,7 @@ const CardGame = () => {
   };
   useEffect(() => {
     shuffle();
+    setMeta("https://devkumar-parekh.vercel.app/images/projects/cardDist.gif");
   }, []);
   return (
     // <div className="d-flex align-items-center justify-content-center vh-100 ">

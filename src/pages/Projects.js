@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-
+import { setMeta } from "../01utils/functions";
+//
 const projectList = [
   {
     url: "/projectlist/chess",
@@ -51,7 +52,7 @@ const projectList = [
     url: "/projectlist/card-game",
     img: "./images/projects/cardDist.gif",
     label: "Card Distribution",
-  },
+  }, //setMeta("https://devkumar-parekh.vercel.app/images/projects/spinWheel.gif");
   {
     url: "/projectlist/lucky-spin-wheel",
     img: "./images/projects/spinWheel.gif",
@@ -74,6 +75,9 @@ const Projects = () => {
               <div className="col-md-4 p-3 text-center" key={index}>
                 <Link
                   className="nav-link bg-secondary rounded p-3 fw-bold"
+                  onClick={() => {
+                    setMeta(`https://devkumar-parekh.vercel.app/${item?.img}`);
+                  }}
                   to={item?.url}
                 >
                   <div>

@@ -1,6 +1,7 @@
 // import { setUserProfile } from "../redux/actions/actions";
 import { useEffect, useState } from "react";
 import "../../index.css";
+import { setMeta } from "../../01utils/functions";
 const QRGenerator = () => {
   const [QrDetails, setQrDetails] = useState({
     qrBgColor: "#000000",
@@ -12,6 +13,9 @@ const QRGenerator = () => {
       return { ...prev, [e.target.name]: e.target.value };
     });
   };
+  useEffect(() => {
+    setMeta("https://devkumar-parekh.vercel.app/images/projects/qr.png");
+  }, []);
   return (
     // <div className="d-flex align-items-center justify-content-center vh-100 ">
     <div className="area">

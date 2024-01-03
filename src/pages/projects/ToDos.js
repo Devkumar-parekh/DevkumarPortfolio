@@ -1,14 +1,17 @@
 import { useDispatch, useSelector } from "react-redux";
 // import { setUserProfile } from "../redux/actions/actions";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { setProductList, setTaskList } from "../../redux/actions/actions";
 import { CustomDataTable } from "./components/customDataTable";
+import { setMeta } from "../../01utils/functions";
 
 const ToDos = () => {
   const dispatch = useDispatch();
   const authState = useSelector((state) => state.auth);
   const TaskList = authState?.TaskList;
-
+  useEffect(() => {
+    setMeta("https://devkumar-parekh.vercel.app/images/projects/todos.gif");
+  }, []);
   const [taskToDo, setTaskTodo] = useState("");
   const deleteTask = (index) => {
     const temp = TaskList;

@@ -1,8 +1,9 @@
 import { useDispatch, useSelector } from "react-redux";
 // import { setUserProfile } from "../redux/actions/actions";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { setProductList } from "../../redux/actions/actions";
 import { CustomDataTable } from "./components/customDataTable";
+import { setMeta } from "../../01utils/functions";
 
 const CrudOps = () => {
   const dispatch = useDispatch();
@@ -76,6 +77,9 @@ const CrudOps = () => {
       },
     },
   ];
+  useEffect(() => {
+    setMeta("https://devkumar-parekh.vercel.app/images/projects/crud.gif");
+  });
   return (
     // <div className="d-flex align-items-center justify-content-center vh-100 ">
     <div className="container">

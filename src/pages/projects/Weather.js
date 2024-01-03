@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { setProductList } from "../../redux/actions/actions";
 import { CustomDataTable } from "./components/customDataTable";
 import axios from "axios";
+import { setMeta } from "../../01utils/functions";
 
 const WeatherComp = () => {
   const [place, setPlace] = useState("Gujrat");
@@ -26,6 +27,7 @@ const WeatherComp = () => {
   };
   useEffect(() => {
     getWeatherDet();
+    setMeta("https://devkumar-parekh.vercel.app/images/projects/weather.png");
   }, []);
   return (
     // <div className="d-flex align-items-center justify-content-center vh-100 ">

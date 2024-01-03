@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { setProductList } from "../../redux/actions/actions";
 import { CustomDataTable } from "./components/customDataTable";
 import { useNavigate } from "react-router-dom";
+import { setMeta } from "../../01utils/functions";
 
 const ques = [
   {
@@ -252,6 +253,7 @@ const QuizComp = () => {
   };
   useEffect(() => {
     console.log(quizSubmission);
+    setMeta("https://devkumar-parekh.vercel.app/images/projects/quiz.gif");
   }, [quizSubmission]);
 
   return (

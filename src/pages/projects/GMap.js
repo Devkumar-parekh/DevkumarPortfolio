@@ -1,5 +1,6 @@
 // import { setUserProfile } from "../redux/actions/actions";
 import { useEffect, useState } from "react";
+import { setMeta } from "../../01utils/functions";
 
 const GMap = () => {
   const [place, setPlace] = useState("");
@@ -11,6 +12,7 @@ const GMap = () => {
         long: position.coords.longitude,
       });
     });
+    setMeta("https://devkumar-parekh.vercel.app/images/projects/map.png");
   }, []);
   return (
     // <div className="d-flex align-items-center justify-content-center vh-100 ">

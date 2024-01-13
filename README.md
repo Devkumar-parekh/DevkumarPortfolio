@@ -1,36 +1,42 @@
-DEVKUMAR PAREKH
-Surat , India 394101 | 8469025446 | parekh2devkumar@gmail.com
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+</head>
+<body>
+    <pre>** Hi! I'm Devkumar Parekh, a versatile web developer passionate about crafting user-friendly and dynamic web experiences.**
 
-WEBSITES, PORTFOLIOS, PROFILES
-https://devkumar-parekh.vercel.app/
-https://www.linkedin.com/in/devkumar-parekh-451521191
-https://github.com/Devkumar-parekh
-PROFESSIONAL SUMMARY
-Highly motivated and skilled web developer with 1 year of experience each in ReactJS+NextJS and PHP+WordPress. Proficient in building responsive, user-friendly web applications using both frameworks and content management systems. Skilled in component development, state management, API integration, and theme customization. Eager to leverage diverse expertise in a challenging role with competitive compensation.
+** Check out my work:**
+Portfolio: https://devkumar-parekh.vercel.app/
+LinkedIn: https://www.linkedin.com/in/devkumar-parekh-451521191
+GitHub: https://github.com/Devkumar-parekh
 
-ACCOMPLISHMENTS
-Leveraged NextJS framework to create a multi-layered frontend for a complex MLM platform, demonstrating advanced front-end development skills. Personal portfolio serves as a showcase of technical aptitude and creativity with ReactJS, featuring custom components, diverse mini-projects (CRUD, mini games, etc.), and data-driven applications. Cultivated knowledge in Content Management Systems (CMS) through numerous successful WordPress projects.
+** Key Skills:**
+Frontend Development: ReactJS, NextJS, JavaScript, HTML5, CSS3, Bootstrap
+Backend Development: PHP, WordPress, WooCommerce, SQL
+Version Control: Git
+Soft Skills: Communication, Teamwork, Collaboration
 
-SKILLS
-ReactJS
-NextJS
-JavaScript
-HTML5
-CSS3
-Bootstrap
-Git
-SQL
-Good communication
-Teamwork and collaboration
-WORK HISTORY
-React Developer 02/2023 - 03/2024
-Algoscript Pvt Ltd - Surat, India
-Crafted a modular NextJS frontend for an MLM platform, enabling rich functionalities and seamless user experiences for diverse roles and access levels.Built a scalable and efficient frontend architecture using Redux-Thunk for state management and Axios for seamless RESTful API integration.
+✨ Accomplishments:
+Architected a multi-layered NextJS frontend for a complex MLM platform, showcasing advanced frontend skills.
+Built a diverse portfolio of ReactJS projects, demonstrating creativity and technical proficiency.
+Expanded WordPress functionalities with custom plugins and child themes for unique client needs.
+Engineered a seamless e-commerce experience using WooCommerce and PHP.
 
-PHP Wordpress Developer 12/2021 - 12/2022
-Webconnect Pvt Ltd - Surat, India
-WordPress CMS: Extended functionalities with custom plugins and child themes for unique brand websites. E-commerce: Engineered a seamless online store using WooCommerce, leveraging PHP and jQuery libraries. (Front-end CSS by collaborators).
+** Work History:**
 
-EDUCATION
-Bachelor of Technology: Information Technology, 05/2022
-University - Uka Tarsadia University - Bardoli
+React Developer | Algoscript Pvt Ltd (02/2023 - 03/2024)
+Developed a modular NextJS frontend for an MLM platform with rich features and smooth user flows.
+Implemented scalable frontend architecture using Redux-Thunk and Axios for efficient state management and API integration.
+
+PHP WordPress Developer | Webconnect Pvt Ltd (12/2021 - 12/2022)
+Extended WordPress capabilities with custom plugins and child themes.
+Built a user-friendly online store using WooCommerce, leveraging PHP and jQuery.
+
+** Education:**
+Bachelor of Technology in Information Technology | Uka Tarsadia University (Graduated 05/2022)
+
+** Let's connect!**
+I'm eager to leverage my diverse skillset and passion for web development in a challenging role that allows me to create exceptional digital experiences. Feel free to reach out for opportunities or collaborations!</pre>
+</body>
+</html>

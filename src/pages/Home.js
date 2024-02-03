@@ -67,10 +67,8 @@ const Home = () => {
                   <Link to="/editProfile" className="btn btn-warning">
                     Edit Profile As Guest User
                   </Link>
-                  <h2>
-                    Key Skills: ReactJS, Next.js, MongoDB, Node.js, Express
-                  </h2>
-                  <h2>Experienced in Building Scalable Web Applications</h2>
+                  <p>Key Skills: ReactJS, Next.js, MongoDB, Node.js, Express</p>
+                  <p>Experienced in Building Scalable Web Applications</p>
                 </div>
               </div>
             </div>
